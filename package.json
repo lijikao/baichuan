@@ -1,0 +1,41 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-consolidate": "^0.2.0",
+    "gulp-ejs": "^3.3.0",
+    "gulp-iconfont": "^10.0.2",
+    "gulp-less": "^4.0.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-order": "^1.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp.spritesmith": "^6.9.0",
+    "merge-stream": "^1.0.1",
+    "vinyl-buffer": "^1.0.1",
+    "browser-sync": "^2.26.3"
+  },
+  "browserslist": [
+    "last 2 version",
+    "ie 9"
+  ],
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "popper.js": "^1.14.7"
+  }
+}

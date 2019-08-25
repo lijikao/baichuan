@@ -1,0 +1,75 @@
+* {
+  font-family:Pingfang SC, "Microsoft YaHei", Helvetica, "黑体", Arial, Tahoma; margin: 0; padding: 0; list-style: none;
+}
+body {
+  margin: 0;
+  text-align: left;
+  color: #6d6d6d;
+  font: 14px/140% "\5B8B\4F53", Arial, Verdana;
+  font-family: "Microsoft YaHei", Helvetica, "黑体", Arial, Tahoma;
+  line-height: initial;
+}
+h1,h2,h3,h4,h5{
+	font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix() {
+  display: block;
+  zoom: 1;
+
+  &:after {
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}
+.word-hidden(){
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+
+.section-title {
+  padding-top:60px;
+  padding-bottom: 60px;
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    background:linear-gradient(-135deg, #FB8A1B 0%, #FF4F25 100%);
+    left: 50%;
+    bottom:40px;
+    margin-left:-20px;
+  }
+  .title {
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+    line-height: 36px;
+    &+.subtitle {
+      margin-top: 20px;
+    }
+  }
+  .subtitle {
+    font-size: 18px;
+    color: #666666;
+    text-align: center;
+    line-height: 28px;
+  }
+}
