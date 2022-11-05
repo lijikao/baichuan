@@ -10,7 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "del": "^2.2.2",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-consolidate": "^0.2.0",
